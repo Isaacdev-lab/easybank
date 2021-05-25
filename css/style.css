@@ -32,6 +32,14 @@
 }
 
 /* Footer styling */
-.page-footer{
+.page-footer-one{
     background: var(--DarkBlue-color);
+}
+
+.page-footer-two{
+    background: var(--GrayishBlue-color);
+}
+
+.icons-pointer{
+    cursor: pointer;
 }
