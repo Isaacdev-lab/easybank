@@ -1,20 +1,37 @@
 
 
+:root{
+
+/* ### Primary */
+
+--DarkBlue-color: hsl(233, 26%, 24%);
+--LimeGreen-color: hsl(136, 65%, 51%);
+--BrightCyan-color: hsl(192, 70%, 51%);
+
+/* ### Neutral */
+
+--GrayishBlue-color: hsl(233, 8%, 62%);
+--LightGrayishBlue-color: hsl(220, 16%, 96%);
+--VeryLightGray-color: hsl(0, 0%, 98%);
+--White-color: hsl(0, 0%, 100%);
+}
 
 
-
-
-
-
-
+/* Flex equal */
 .cc-flex{
     flex: 1;
 }
 
+/* Header right column background image */
 .backgroundimgage{
     background: url(../img/bg-intro-desktop.svg);
     background-repeat: no-repeat;
     background-position: left;
     background-size: cover;
     object-fit: contain;
+}
+
+/* Footer styling */
+.page-footer{
+    background: var(--DarkBlue-color);
 }
